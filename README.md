@@ -3,11 +3,13 @@ This is an English to Chinese translation tool that accepts an srt file of subti
 To run the script as‐is, you’ll need:
 1. Python 3.6 or newer; The #!/usr/bin/env python3 and f-strings require at least Python 3.6.
 2. The googletrans library; I recommend the community-approved release candidate: bash: pip install googletrans==4.0.0-rc1
+
 (Optional) A virtual environment to keep your dependencies isolated:
 bash: python3 -m venv venv
 	source venv/bin/activate     # on macOS/Linux
 	venv\Scripts\activate.bat    # on Windows
   	pip install googletrans==4.0.0-rc1 
+
 Everything else in the script—argparse, re, and pathlib—comes with Python’s standard library. Once you’ve got Python 3 and googletrans installed, the script should run without any further dependencies.
 
 Bash line to run:
